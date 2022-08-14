@@ -133,7 +133,12 @@ margin-left: 5px;
 }
 footer{
 	margin-top: -110px;
+
 }
+footer a{
+	margin-top: 20px;
+}
+
 }
 
 header{margin-bottom: -100px;}
