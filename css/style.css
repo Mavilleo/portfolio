@@ -1,0 +1,272 @@
+/*font brush*/
+@import url('http://fonts.cdnfonts.com/css/nooble-wooble');
+                
+*{
+	margin: 0px;
+	padding: 0px;
+	user-select: none;
+	align-content: center;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.inside{
+	border: 5px solid black;
+}
+header{
+	height: 100%;
+}
+.logo{
+	height: 10px;
+
+}
+.navbar-style{
+	background-color: lightgray;
+padding: 0px;
+}
+.icon-bar{
+	background-color: black;
+
+}
+.collapse{
+	text-transform: uppercase;
+
+}
+
+/*BORDER  animation*/
+:root {
+  --angle: 45deg;
+  --opacity: 0.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.rainbow {
+	 
+  width: 400px;
+  border-radius: 10px;
+  padding: 2px;
+  margin-top: 100px;
+  color: whitesmoke;
+font-family: 'Nooble Wooble', sans-serif;
+
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  --border-size: 0.9rem;
+  border: var(--border-size) solid transparent;
+
+  /* Paint an image in the border */
+  border-image: conic-gradient(
+      from var(--angle),
+      #d53e33 0deg 90deg,
+      #fbb300 90deg 180deg,
+      #377af5 180deg 270deg,
+      #399953 270deg 360deg
+    )
+    1 stretch;
+
+}
+
+/** show a warning in browers that don't support it **/
+
+/* Animate when Houdini is available */
+@supports (background: paint(houdini)) {
+  @property --opacity {
+    syntax: "<number>";
+    initial-value: 0.5;
+    inherits: false;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+
+  .rainbow {
+    animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+  }
+  .p{
+  	font-size:70px; margin-bottom: -50px;
+  }
+.w{
+	font-size: 150px;
+
+}
+
+.autowriting{
+	margin-top: -20px;
+color:wheat ;
+font-size: 40px;
+ text-shadow: 2px 2px 3px black, 0 0 50px darkorange, 0 0 100px darkorange;
+ 
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+ .p{
+  	font-size:50px;
+  }
+.w{
+	font-size: 100px;
+}
+}
+@media screen and (max-width: 410px) {
+ .rainbow{
+ 	height: 600px;
+ }
+ .p{
+  	font-size:50px;
+  }
+.w{
+	font-size: 60px;
+}
+}
+
+.row2{	
+	padding-left: 20px;
+	height: 600px;
+}
+.col{
+	border: 5px inset gray;
+	margin: 10px 10px 0px 0px;
+	color: white;
+	 font-family: "Times New Roman";
+	 padding-top: 10px;
+	 background-color: silver;
+ text-shadow: 2px 2px 3px black
+}
+.col img{
+margin-bottom: 20px;
+}
+#skill{
+	
+	height: 630px;
+padding: 0px 20px 0px 20px;
+}
+.skill{
+	background-color: silver;
+	padding: 10px;
+	height: 500px;
+	border: 5px inset gray;
+
+}
+.bar{
+	background-color: gray;
+	border-radius: 30px;
+
+}
+.fill{
+color: hotpink;
+background-color: limegreen;
+border-radius: 30px;
+display: flex;
+justify-content: flex-end;
+overflow: hidden;
+margin-bottom: 20px;
+}
+.percent{
+	font-size: 18px;
+
+
+}
+.skill-title{
+	font-size: 20px;
+	font-family: "italic roman";
+}
+
+#skill h1,.skill h2{
+	font-family: 'Nooble Wooble', sans-serif;
+text-shadow: 2px 2px 2px gray , 2px 2px white;
+margin-bottom: 20px;
+}
+.html {
+  animation: html 2s ;
+  width: 85%;
+}
+.css {
+  animation: css 2s ;
+  width: 80%;
+}
+.js {
+  animation: js 2s ;
+  width: 10%;
+}
+.bootstrap {
+  animation: bootstrap 2s ;
+  width: 50%;
+}
+.php {
+  animation: php 2s ;
+  width: 20%;
+}
+.word{
+  animation: word 2s ;
+  width: 70%;
+}
+.ppt {
+  animation: ppt 2s ;
+  width: 50%;
+}
+.excel {
+  animation: excel 2s ;
+  width: 20%;
+}
+.wp {
+  animation: wp 2s ;
+  width: 0%;
+}
+@keyframes html{
+	from{width: 0%;}
+	to{width: 85%;}
+}
+@keyframes css{
+	from{width: 0%;}
+	to{width: 80%;}
+}
+@keyframes bootstrap{
+	from{width: 0%;}
+	to{width: 50%;}
+}
+
+@keyframes js{
+	from{width: 0%;}
+	to{width: 10%;}
+}
+@keyframes php{
+	from{width: 0%;}
+	to{width: 20%;}
+}
+@keyframes word{
+	from{width: 0%;}
+	to{width: 70%;}
+}
+@keyframes ppt{
+	from{width: 0%;}
+	to{width: 50%;}
+}
+@keyframes excel{
+	from{width: 0%;}
+	to{width: 20%;}
+}
+@keyframes wp{
+	from{width: 0%;}
+	to{width: 0%;}
+}

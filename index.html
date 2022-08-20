@@ -2,61 +2,157 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-	 <link rel="stylesheet" type="text/css" href="css/css.css">
-	 <!-- icon -->
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <!-- bootsrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- auto refresh -->
+<!-- 	<meta http-equiv="refresh" content="1">  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		 <!-- bootsrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!-- auto typng -->
+  <!-- auto typng -->
   	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-	<title></title>
+	<title>Home</title>
 </head>
-<body>
-
-		<header class="header">
-	
-	<div class="container text-center">
-		<div class="row">
-			<div class= "col-sm-6 col-xs-7">
-			<img src="img/model.png" alt="Prado" id="img"class="img-responsive" ></div>
-		<div class=""></div>
-			<div class="text">	
-				<h1 class="big-text"><span>P</span><span>r</span><span>a</span><span>d</span><span>o</span><span>, </span><span>E</span><span>z</span><span>e</span><span>k</span><span>i</span><span>e</span><span>l</span></h1>
-				<h3><strong>Aspiring</strong> to be</h3>
-				<span class="obj"></span>
-		
-			<div class="col-xs-12 col-sm-6 col-md-6"><a class="btn btn-first" href="">Send Message</a>
-				<a class="btn btn-second" href="about.html">About</a></div>
-			</div></div>
-			</div>
-	</header>
-
-
-	<script>var typed= new Typed(".obj",{
-	strings:["Front End Developer","Back End Developer"],
+<body style="background-image: url('img/Galaxy.gif'); background-repeat: no-repeat;background-attachment: fixed;  background-size: cover; ">
+<!-- Navbar -->
+<nav class="navbar navbar-style navbar=fluid">
+<div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+      	<span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+           <h3 class="logo"><strong>Portfolio</strong></h3>
+    </div>
+    <div class="collapse navbar-collapse" id="micon">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  	</div></div>
+</nav>
+	 
+<div class="container flex-center">
+  <div class="row" id="Home">
+    <div class="rainbow col-sm-11 col-xs-12 col-md-12">
+	<p class="p">Hi,there</p>
+<h1 class="w">Welcome</h1>
+<div class="autowriting"><p>I'am Aspiring to be </p><span class="obj"></span><p>Developer</p></div>
+</div>
+<script>
+	var typed= new Typed(".obj",{
+	strings:["Front End","Back End","Wordpress"],
 typeSpeed:50,
 backSpeed:40,
 loop:true
-})</script>
+}) 
+</script></div>
+<hr>
+<!-- About -->
+<div class="row2 text-center " id="About">
+<div class="col col-sm-12 col-xs-12 col-md-5 ">
+  <img src="img/me.png" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="350" height="350">
+  <h3>Ezekiel Prado</h3>
+</div>
+<div class="col col-sm-12 col-xs-12 col-md-6  conten-center">
+  <h2>Personal Information</h2>
+  <h4><strong>Age: </strong>21</h4>
+  <h4><strong>Email: </strong>pradoezekiel06@gmail.com</h4>
+  <h4><strong>Address: </strong>Caa Las Pinas, Metro Manila Philippines</h4> 
+  <hr>
+</div>
+<div class="col col-sm-12 col-xs-12 col-md-6">
+<h3>I'm Ezekiel Prado. I live in Las Pinas City. I am proudly present as a front-end, back-end, and Wordpress developer. I assure you that every project I create is good and gives a high quality reputation for the clients. Developing projects is part of my developing skills to improve, enhance, organize, and give a good image.</h3>
+</div>
+<div class="col col-sm-12 col-xs-12 col-md-11">
+<h3>QOUTES</h3>
+<h3>A new Project is a new Innovation</h3>
+</div>
+</div>
+<hr>
+<div class="row text-center" id="skill">
+  <h1>Skills</h1>
+  <div class="skill col-xs-6 col-sm-6 col-md-3">
+    <h2>Front End</h2>
+  <div class="skill_1">
+    <div class="skill-title">Html</div>
+    <div class="bar">
+      <div class="html fill"><span class="percent">85%</span></div>
+    </div>
+  </div>
+  <div class="skill_1">
+    <div class="skill-title">Css</div>
+    <div class="bar">
+      <div class="css fill"><span class="percent">80%</span></div>
+    </div>
+  </div>
+  <div class="skill_1">
+    <div class="skill-title">Bootstrap</div>
+    <div class="bar">
+      <div class="bootstrap fill"><span class="percent">50%</span></div>
+    </div>
+  </div>
+  <div class="skill_1">
+    <div class="skill-title">Java Script</div>
+    <div class="bar">
+      <div class="js fill"><span class="percent">10%</span></div>
+    </div>
+  </div>
+  </div>
 
-<footer class="footer  text-center">
- <svg viewBox="0 0 120 28"><a href="https://github.com/Mavilleo" class="fa fa-github"></a>
- <defs>   
-     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-  </defs> 
-   <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
-   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
-</svg>
 
-</footer>
-<footer class="bottom-footer">
-<div class="bottom container-fluid text-center"> <a href="https://www.facebook.com/mavilleoprado/" class="fa fa-facebook"></a>
-<a href="https://github.com/Mavilleo" class="fa fa-github"></a>
-<a href="https://www.linkedin.com/in/ezekiel-prado-031439246/" class="fa fa-linkedin"></a>  <p>Copyright &copy;2022 Ezekiel Prado <span> All Rights Reserved</span></p></div>
-</footer>
+  <div class="skill col-xs-6 col-sm-6 col-md-3">
+  <h2>Back End</h2>
+  <div class="skill_1">
+    <div class="skill-title">Php</div>
+    <div class="bar">
+      <div class="php fill"><span class="percent">20%</span></div>
+    </div>
+  </div>
+  </div>
+
+
+<div class="skill col-xs-6 col-sm-6 col-md-3">
+  <h2>MS software</h2>
+    <div class="skill_1">
+    <div class="skill-title">MS word</div>
+    <div class="bar">
+      <div class="word fill"><span class="percent">70%</span></div>
+    </div>
+  </div>
+    <div class="skill_1">
+    <div class="skill-title">MS Presentation</div>
+    <div class="bar">
+      <div class="ppt fill"><span class="percent">50%</span></div>
+    </div>
+  </div>
+    <div class="skill_1">
+    <div class="skill-title">MS excel</div>
+    <div class="bar">
+      <div class="excel fill"><span class="percent">20%</span></div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="skill col-xs-6 col-sm-6 col-md-3">
+  <h2>Word press</h2>
+    <div class="skill_1">
+    <div class="skill-title">Skill</div>
+    <div class="bar">
+      <div class="wp fill"><span class="percent">0%</span></div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 </body>
 
-</html> 
+
+
+	
+</html>
