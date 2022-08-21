@@ -139,6 +139,9 @@ font-size: 40px;
 .w{
 	font-size: 60px;
 }
+footer{
+	height: 230px;
+}
 }
 
 .row2{	
@@ -275,7 +278,7 @@ margin-bottom: 20px;
 footer{
 	padding: 20px;
 	background-color:#273746 ;
-	height: 200px;
+	height: 230px;
 	color: white;
 }
 
