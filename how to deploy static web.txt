@@ -1,0 +1,37 @@
+https://git-scm.com/downloads
+nestifuy link
+https://app.netlify.com/sites/pradoee/settings/general
+
+open github. create new
+open folder of html project then right click choose git bash
+then enter "git nit"
+git remote add origin https://github.com/Mavilleo/Ezekiel.git
+note:link sa create new ng github yan
+
+git add .
+git commit -m"dev"
+git config --global user.email "Emailmo"
+git config --global user.name "Mavilleo"
+git commit -m"new upload"
+git push origin master
+wait for verification login form
+reload github page na new project
+https://app.netlify.com/
+sign in dian
+then fillup
+import from git
+install nestify
+back to site of nestify then click projecty and deploy
+
+click site setting
+
+
+(yourgithubcreatefile paste this githublink)ex: httpsgithub.com/url
+3. git add . (to add files in ur github repo)
+4. git commit -m"message" (ex: dev project)
+5. git push origin master (to push ur files to repo)
+
+// change code then save
+1. git add .
+2. git commit -m"changed name"
+3. git push origin master

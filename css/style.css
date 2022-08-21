@@ -17,6 +17,7 @@ html {
 }
 header{
 	height: 100%;
+
 }
 .logo{
 	height: 10px;
@@ -52,7 +53,7 @@ padding: 0px;
   width: 400px;
   border-radius: 10px;
   padding: 2px;
-  margin-top: 100px;
+  margin-top: 50px;
   color: whitesmoke;
 font-family: 'Nooble Wooble', sans-serif;
 
@@ -141,21 +142,22 @@ font-size: 40px;
 }
 
 .row2{	
-	padding-left: 20px;
+
 	height: 600px;
+	
+
 }
 .col{
 	border: 5px inset gray;
-	margin: 10px 10px 0px 0px;
+	margin: 10px 0px 0px 10px;
 	color: white;
 	 font-family: "Times New Roman";
 	 padding-top: 10px;
 	 background-color: silver;
  text-shadow: 2px 2px 3px black
 }
-.col img{
-margin-bottom: 20px;
-}
+
+
 #skill{
 	
 	height: 630px;
@@ -269,4 +271,35 @@ margin-bottom: 20px;
 @keyframes wp{
 	from{width: 0%;}
 	to{width: 0%;}
+}
+footer{
+	padding: 20px;
+	background-color:#273746 ;
+	height: 200px;
+	color: white;
+}
+
+.container{
+	margin-top: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 50px;
+  margin-left: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  border-radius: 100px;
+  margin-bottom: 35px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: white;
+  color: #111;
 }
